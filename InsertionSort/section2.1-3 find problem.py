@@ -1,6 +1,5 @@
 def findv(sequence, v):
-    nl = list(range(0, len(sequence) - 1))
-    for index in nl:
+    for index in range(0, len(sequence) - 1):
         if sequence[index] == v:
             return '%s' % index
     return 'NIL'
